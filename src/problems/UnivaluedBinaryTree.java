@@ -19,8 +19,11 @@ public class UnivaluedBinaryTree {
 
     public boolean isUnivalTree(TreeNode root) {
 
+        // 判斷左邊的節點
         boolean left_correct = (root.left == null ||
                 (root.val == root.left.val && isUnivalTree(root.left)));
+
+        // 判斷右邊的節點
         boolean right_correct = (root.right == null ||
                 (root.val == root.right.val && isUnivalTree(root.right)));
         return left_correct && right_correct;
