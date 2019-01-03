@@ -10,7 +10,7 @@ public class ToLowCase {
 
     public String toLowerCase(String str) {
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(str.length());
 
         for (int c : str.toCharArray()) {
 
