@@ -3,10 +3,6 @@ package problems;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *
- */
-
 public class TwoSum {
 
     public static void main(String[] args) {
@@ -27,7 +23,7 @@ public class TwoSum {
 
         for (int i = 0; i < nums.length; i++) {
 
-            // map 內容為 num[i], i
+            // map 內容為「值」, 「順序」
             map.put(nums[i], i);
         }
 
@@ -36,8 +32,11 @@ public class TwoSum {
             // 所需的數值 = 目標數值 - 目前的項目數值
             int complement = target - nums[i];
 
-            // 搜尋 map 的 key 有沒有自己所需的值 && 該項不可以是自己
-            if (map.containsKey(complement) && map.get(complement) != i)
+            // 搜尋 map 的 key(值)
+            if (map.containsKey(complement) &&
+                    map.get(complement) != i) // 陣列中的每個元素不能被重覆使用
+
+                // 如果滿足上述兩個條件，則 return 該解
                 return new int[]{i, map.get(complement)};
         }
 
