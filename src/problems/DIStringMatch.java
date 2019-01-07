@@ -12,15 +12,15 @@ public class DIStringMatch {
 
     public int[] diStringMatch(String S) {
 
-        int len = S.length();
-        int[] res = new int[len + 1];
-        int s = 0, e = len ;
-        for (int i = 0; i < len; i++) {
-
+        // 返回陣列的長度為 n + 1
+        int[] res = new int[S.length() + 1];
+        int s = 0, e = S.length(); // 第一項與最末項
+        for (int i = 0; i < S.length(); i++) {
             if (S.charAt(i) == 'I') res[i] = s++;
             else res[i] = e--;
         }
-        res[len] = s;
+        // 記得要填最後一項
+        res[S.length()] = s;
 
         return res;
     }
