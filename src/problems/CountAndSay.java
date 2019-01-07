@@ -11,10 +11,10 @@ public class CountAndSay {
 
     public String countAndSay(int n) {
 
-        // 第一項
+        // 起始項
         if (n == 1) return "1";
 
-        // 遞迴, 尾端的空字符是為了方便目標字串最末位的判斷
+        // 尾端的空字符是為了方便目標字串最末位的判斷,
         String str = countAndSay(n - 1) + " ";
 
         StringBuilder res = new StringBuilder();
