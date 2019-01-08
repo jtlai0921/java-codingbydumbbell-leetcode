@@ -14,6 +14,7 @@ public class JewelsAndStones {
 
         int count = 0;
         for (char c : S.toCharArray()) {
+            // 若 J 字串中有包含 S 字串的字元，則計數加 1
             if (J.contains(String.valueOf(c))) count++;
         }
         return count;
