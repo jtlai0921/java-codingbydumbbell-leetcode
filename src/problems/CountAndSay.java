@@ -14,7 +14,7 @@ public class CountAndSay {
         // 起始項
         if (n == 1) return "1";
 
-        // 尾端的空字符是為了方便目標字串最末位的判斷
+        // 最後的空字符是為了目標字串末位的辨識
         String str = countAndSay(n - 1) + " ";
 
         StringBuilder res = new StringBuilder();
