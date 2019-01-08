@@ -1,6 +1,5 @@
 # java-leetcode
 leetcode.com 
-Leet Code
 
 簡介：
 
