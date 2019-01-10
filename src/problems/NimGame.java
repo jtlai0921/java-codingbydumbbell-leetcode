@@ -11,7 +11,7 @@ public class NimGame {
 
     public boolean canWinNim(int n) {
 
-        // 4 的倍數穩輸
+        // 不為 4 個倍數
         return n % 4 != 0;
     }
 }
