@@ -7,9 +7,9 @@ public class NRepeatedElementInSize2NArray {
 
     public static void main(String[] args) {
 
-        int[] ints = {2, 1, 2, 5, 3, 2};
+        int[] A = {2, 1, 2, 5, 3, 2};
 
-        int res = new NRepeatedElementInSize2NArray().repeatedNTimes(ints);
+        int res = new NRepeatedElementInSize2NArray().repeatedNTimes(A);
         System.out.println(res);
     }
 
@@ -18,7 +18,11 @@ public class NRepeatedElementInSize2NArray {
 
         // 只要判斷內容是否有重覆
         for (int i : A) {
+
+            // 有重覆就是它
             if (list.contains(i)) return i;
+
+            // 不然就加入 list
             list.add(i);
         }
         return -1;
