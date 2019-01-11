@@ -12,8 +12,6 @@ public class PalindromeNumber {
 
     public boolean isPalindrome(int x) {
 
-
-        System.out.println(new Integer(x).floatValue());
         // 如果 x < 0 就 return false
         if (x < 0) return false;
 
