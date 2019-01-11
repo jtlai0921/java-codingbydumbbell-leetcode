@@ -12,6 +12,8 @@ public class PlusOne {
     }
 
     public int[] plusOne(int[] digits) {
+
+        // 從個位數開始判斷起
         for (int i = digits.length - 1; i >= 0; i--) {
 
             // 如果當前位數不是 9, 就直接 +1 回傳
