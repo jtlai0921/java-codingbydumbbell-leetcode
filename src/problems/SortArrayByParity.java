@@ -4,16 +4,19 @@ public class SortArrayByParity {
 
     public static void main(String[] args) {
 
-        int[] ints = {3, 1, 2, 4};
+        int[] A = {3, 1, 2, 4};
 
-        int[] res = new SortArrayByParity().sortArrayByParity(ints);
+        int[] res = new SortArrayByParity().sortArrayByParity(A);
         for (int i : res) {
             System.out.print(i + " ");
         }
     }
 
     public int[] sortArrayByParity(int[] A) {
+        // 用於放答案的空陣列
         int[] res = new int[A.length];
+
+        // index
         int s = 0, e = A.length - 1;
         for (int i : A) {
             if (i % 2 == 0) res[s++] = i;
