@@ -14,8 +14,10 @@ public class SortArrayByParityII {
 
     public int[] sortArrayByParityII(int[] A) {
 
+        // 用於放答案的空陣列
         int[] res = new int[A.length];
 
+        // index
         int odd = 1, even = 0;
         for (int i : A) {
             if (i % 2 == 1) {
