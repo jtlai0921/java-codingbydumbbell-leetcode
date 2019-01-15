@@ -24,8 +24,17 @@ public class UniqueEmailAddresses {
             // 將 email 分成 local name 和 domain name
             String[] strings = s.split("@");
 
-            // 針對 local name 部分處理, 先處理 + 號, 再處理 ., 最後透過 set 不重覆特性來過濾
-            set.add(strings[0].split("\\+")[0].replace(".", "") + "@" + strings[1]);
+            // 將 local name 中 + 號後的字串濾掉
+            String local = strings[0].split("\\+")[0];
+
+            // 將 local name 中 . 號濾掉
+            local = local.replace(".", "");
+
+            // 將 local + domain 拼成完整的 email
+            String eamil = local + strings[1];
+
+            // 將 eamil 放進 set 中, set 不重覆特性來過濾
+            set.add(eamil);
         }
         return set.size();
     }
