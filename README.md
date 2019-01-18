@@ -1,4 +1,4 @@
-# java-leetcode
+# java-codingbydumbbell-leetcode
 leetcode.com 
 
 簡介：
@@ -19,4 +19,4 @@ LeetCode 是非常知名的題庫網站，我想很多人都應該對它不陌�
 
 LeetCode.com：https://leetcode.com/
 
-MyBlogger, CODINGBYDUBBELL：https://codingbydumbbell.blogspot.com/
+My Blog, CODINGBYDUBBELL：https://codingbydumbbell.blogspot.com/
