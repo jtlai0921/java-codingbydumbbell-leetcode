@@ -10,9 +10,7 @@ public class UniqueMorseCodeWords {
         String[] words = {"gin", "zen", "gig", "msg"};
 
         int res = new UniqueMorseCodeWords().uniqueMorseRepresentations(words);
-
         System.out.println(res);
-
     }
 
     public int uniqueMorseRepresentations(String[] words) {
