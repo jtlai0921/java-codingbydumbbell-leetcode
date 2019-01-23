@@ -2,9 +2,8 @@ package problems;
 
 public class ToLowCase {
     public static void main(String[] args) {
-        String string = "Hello";
-
-        String res = new ToLowCase().toLowerCase(string);
+        String str = "Hello";
+        String res = new ToLowCase().toLowerCase(str);
         System.out.println(res);
     }
 

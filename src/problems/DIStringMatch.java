@@ -2,9 +2,9 @@ package problems;
 
 public class DIStringMatch {
     public static void main(String[] args) {
-        String s = "DDI";
+        String S = "DDI";
 
-        int[] res = new DIStringMatch().diStringMatch(s);
+        int[] res = new DIStringMatch().diStringMatch(S);
         for (int i : res) {
             System.out.print(i+" ");
         }

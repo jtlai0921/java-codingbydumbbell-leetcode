@@ -6,10 +6,10 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
-        String string = "abcggf";
+        String s = "abcggf";
 
         int res = new LongestSubstringWithoutRepeatingCharacters()
-                .lengthOfLongestSubstring(string);
+                .lengthOfLongestSubstring(s);
         System.out.println(res);
     }
 

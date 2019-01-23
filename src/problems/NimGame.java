@@ -3,9 +3,8 @@ package problems;
 public class NimGame {
 
     public static void main(String[] args) {
-        int i = 103;
-
-        boolean res = new NimGame().canWinNim(i);
+        int n = 103;
+        boolean res = new NimGame().canWinNim(n);
         System.out.println(res);
     }
 

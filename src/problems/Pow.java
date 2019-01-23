@@ -3,8 +3,10 @@ package problems;
 public class Pow {
 
     public static void main(String[] args) {
-        double d = new Pow().myPow(2, -1);
-        System.out.println(d);
+        double x = 2;
+        int n = -1;
+        double res = new Pow().myPow(x, n);
+        System.out.println(res);
     }
 
     public double myPow(double x, int n) {

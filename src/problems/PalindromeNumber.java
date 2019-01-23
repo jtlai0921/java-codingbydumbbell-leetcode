@@ -3,10 +3,8 @@ package problems;
 public class PalindromeNumber {
 
     public static void main(String[] args) {
-
-        int i = 121;
-
-        boolean res = new PalindromeNumber().isPalindrome(i);
+        int x = 121;
+        boolean res = new PalindromeNumber().isPalindrome(x);
         System.out.println(res);
     }
 

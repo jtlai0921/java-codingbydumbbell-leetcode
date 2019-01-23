@@ -8,9 +8,9 @@ public class LetterCasePermutation {
     private List<String> res;
 
     public static void main(String[] args) {
-        String string = "a1b2";
+        String S = "a1b2";
 
-        List<String> res = new LetterCasePermutation().letterCasePermutation(string);
+        List<String> res = new LetterCasePermutation().letterCasePermutation(S);
         System.out.println(res);
     }
 

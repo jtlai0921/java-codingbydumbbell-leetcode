@@ -3,10 +3,8 @@ package problems;
 public class SortArrayByParityII {
 
     public static void main(String[] args) {
-
-        int[] ints = {4, 2, 5, 7};
-
-        int[] res = new SortArrayByParityII().sortArrayByParityII(ints);
+        int[] A = {4, 2, 5, 7};
+        int[] res = new SortArrayByParityII().sortArrayByParityII(A);
         for (int i : res) {
             System.out.print(i + " ");
         }

@@ -3,9 +3,9 @@ package problems;
 public class CountAndSay {
 
     public static void main(String[] args) {
-        int i = 6;
+        int n = 6;
 
-        String res = new CountAndSay().countAndSay(i);
+        String res = new CountAndSay().countAndSay(n);
         System.out.println(res);
     }
 

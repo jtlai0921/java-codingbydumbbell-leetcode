@@ -3,8 +3,7 @@ package problems;
 public class ReverseInteger {
 
     public static void main(String[] args) {
-        int i = 123;
-
+        int i = -1123;
         int res = new ReverseInteger().reverse(i);
         System.out.println(res);
     }

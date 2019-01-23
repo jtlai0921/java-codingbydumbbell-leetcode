@@ -3,8 +3,8 @@ package problems;
 public class IntegerBreak {
 
     public static void main(String[] args) {
-        int i = 10;
-        int res = new IntegerBreak().integerBreak(i);
+        int n = 10;
+        int res = new IntegerBreak().integerBreak(n);
         System.out.println(res);
     }
 

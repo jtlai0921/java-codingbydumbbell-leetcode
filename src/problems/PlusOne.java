@@ -3,9 +3,9 @@ package problems;
 public class PlusOne {
 
     public static void main(String[] args) {
-        int[] ints = {9, 9, 9};
+        int[] digits = {9, 9, 9};
 
-        int[] res = new PlusOne().plusOne(ints);
+        int[] res = new PlusOne().plusOne(digits);
         for (int i : res) {
             System.out.print(i + " ");
         }

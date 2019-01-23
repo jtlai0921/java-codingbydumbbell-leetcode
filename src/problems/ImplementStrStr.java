@@ -4,7 +4,6 @@ public class ImplementStrStr {
 
     public static void main(String[] args) {
         String haystack = "hello", needle = "ll";
-
         int res = new ImplementStrStr().strStr(haystack, needle);
         System.out.println(res);
     }

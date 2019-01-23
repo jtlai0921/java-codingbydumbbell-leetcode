@@ -12,7 +12,6 @@ public class UnivaluedBinaryTree {
         root.left.right = new TreeNode(1);
         root.right = new TreeNode(1);
         root.right.right = new TreeNode(1);
-
         boolean res = new UnivaluedBinaryTree().isUnivalTree(root);
         System.out.println(res);
     }

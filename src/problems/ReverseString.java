@@ -4,9 +4,14 @@ public class ReverseString {
 
     public static void main(String[] args) {
         String string = "A man, a plan, a canal: Panama";
-
         String res = new ReverseString().reverseString(string);
         System.out.println(res);
+
+        char[] s = {'H', 'a', 'n', 'n', 'a', 'h'};
+        new ReverseString().reverseString(s);
+        for (char c : s) {
+            System.out.print(c + " ");
+        }
     }
 
     public String reverseString(String s) {
@@ -24,5 +29,16 @@ public class ReverseString {
             sb.append(chars[i - 1]);
         }
         return sb.toString();
+    }
+
+    public void reverseString(char[] s) {
+//        String str = new StringBuilder(String.valueOf(s)).reverse().toString();
+//        for (int i = 0; i < s.length; i++) s[i] = str.charAt(i);
+
+        for (int i = 0; i < s.length / 2; i++) {
+            char temp = s[i];
+            s[i] = s[s.length - 1 - i];
+            s[s.length - 1 - i] = temp;
+        }
     }
 }

@@ -6,9 +6,7 @@ import java.util.Set;
 public class UniqueMorseCodeWords {
 
     public static void main(String[] args) {
-
         String[] words = {"gin", "zen", "gig", "msg"};
-
         int res = new UniqueMorseCodeWords().uniqueMorseRepresentations(words);
         System.out.println(res);
     }

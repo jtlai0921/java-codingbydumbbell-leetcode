@@ -3,9 +3,8 @@ package problems;
 public class FibonacciNumber {
 
     public static void main(String[] args) {
-        int i = 10;
-
-        int res = new FibonacciNumber().fib(i);
+        int N = 10;
+        int res = new FibonacciNumber().fib(N);
         System.out.println(res);
     }
 

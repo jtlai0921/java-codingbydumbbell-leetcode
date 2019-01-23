@@ -6,7 +6,6 @@ import java.util.Set;
 public class FirstUniqueCharacterInAString {
 
     public static void main(String[] args) {
-
         String s = "loveleetcode";
         int res = new FirstUniqueCharacterInAString().firstUniqChar(s);
         System.out.println(res);
