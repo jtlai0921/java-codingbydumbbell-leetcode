@@ -28,9 +28,7 @@ public class ReverseString {
         StringBuilder sb = new StringBuilder(s.length());
 
         // 將字串逐一反轉拼起
-        for (int i = s.length(); i > 0; i--) {
-            sb.append(chars[i - 1]);
-        }
+        for (int i = s.length(); i > 0; i--) sb.append(chars[i - 1]);
         return sb.toString();
     }
 
