@@ -9,7 +9,7 @@ public class ReverseWordsInAStringIII {
     }
 
     public String reverseWords(String s) {
-        StringBuilder sb = new StringBuilder(s.length());
+        StringBuilder sb = new StringBuilder();
         // 將字串拆成單字
         for (String str : s.split(" ")) {
             // 將單字反轉
