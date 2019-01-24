@@ -3,10 +3,12 @@ package problems;
 public class ReverseString {
 
     public static void main(String[] args) {
+        // part 1
         String string = "A man, a plan, a canal: Panama";
         String res = new ReverseString().reverseString(string);
         System.out.println(res);
 
+        // part 2
         char[] s = {'H', 'a', 'n', 'n', 'a', 'h'};
         new ReverseString().reverseString(s);
         for (char c : s) {
@@ -14,6 +16,7 @@ public class ReverseString {
         }
     }
 
+    // part 1
     public String reverseString(String s) {
         // 排除 s == null 和 s 長度小於等於 1 的情況
         if (s == null || s.length() <= 1) return s;
@@ -31,10 +34,9 @@ public class ReverseString {
         return sb.toString();
     }
 
+    // part 2
     public void reverseString(char[] s) {
-//        String str = new StringBuilder(String.valueOf(s)).reverse().toString();
-//        for (int i = 0; i < s.length; i++) s[i] = str.charAt(i);
-
+        // 限制式為 i < s.length / 2
         for (int i = 0; i < s.length / 2; i++) {
             char temp = s[i];
             s[i] = s[s.length - 1 - i];
