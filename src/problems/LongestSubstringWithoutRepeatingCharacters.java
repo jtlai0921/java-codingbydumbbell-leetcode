@@ -21,7 +21,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         Set<Character> set = new HashSet<>();
         int res = 0;
 
-        // i 是目前的位置, j 則代表不重覆起點的位置
+        // i 是目前的位置，j 則代表不重覆起點的位置
         for (int i = 0, j = 0; i < s.length(); ) {
             // 遇到重覆的字元
             if (set.contains(s.charAt(i))) {

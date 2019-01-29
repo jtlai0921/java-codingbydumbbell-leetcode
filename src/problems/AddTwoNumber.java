@@ -20,13 +20,13 @@ public class AddTwoNumber {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
-        // 建立一個假的節點, 當作 head 使用
+        // 建立一個假的節點，當作 head 使用
         ListNode dummy = new ListNode(0);
 
         ListNode cur = dummy; // 當前節點
         ListNode p = l1, q = l2;
 
-        int sum = 0; // 總和, 進位判斷
+        int sum = 0; // 總和，進位判斷
 
         // 如果兩個都不是 null -> 則必須運算
         while (p != null || q != null) {
@@ -45,10 +45,10 @@ public class AddTwoNumber {
             cur.next = new ListNode(sum % 10); // 計算出當前節點的數值
             cur = cur.next; // 節點移動一位
 
-            sum /= 10; // 若 sum > 10 代表有進位, 保留為 1, 若 sum < 10 則將它歸 0
+            sum /= 10; // 若 sum > 10 代表有進位，保留為 1，若 sum < 10 則將它歸 0
         }
 
-        // 這時候代表 p & q 都是 null, 此時要判斷 sum 若等於 1, 則代表上一位的運算有進位, 補上 1
+        // 這時候代表 p & q 都是 null，此時要判斷 sum 若等於 1，則代表上一位的運算有進位，補上 1
         if (sum == 1) cur.next = new ListNode(1);
 
         // 因為第一個是假節點，因此返回 dummy.next

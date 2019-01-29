@@ -31,7 +31,7 @@ public class IntersectionOfTwoArraysII {
             // 小的往前走
             if (nums1[i] < nums2[j]) i++;
             else if (nums1[i] > nums2[j]) j++;
-            else { // 相同就把值加入 List 內, 並一起走
+            else { // 相同就把值加入 List 內，並一起走
                 intersect.add(nums1[i]);
                 i++;
                 j++;

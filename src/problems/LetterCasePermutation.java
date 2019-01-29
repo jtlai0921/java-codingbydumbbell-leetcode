@@ -32,7 +32,7 @@ public class LetterCasePermutation {
         // 如果該字元是英文數字
         if (chars[i] > '9') {
 
-            // 大寫轉小寫, 小寫轉大寫
+            // 大寫轉小寫，小寫轉大寫
             chars[i] ^= (1 << 5);
 
             // 另外一個分支

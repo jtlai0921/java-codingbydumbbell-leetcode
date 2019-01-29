@@ -31,7 +31,7 @@ public class UniqueEmailAddresses {
             // 將 local + domain 拼成完整的 email
             String eamil = local + strings[1];
 
-            // 將 eamil 放進 set 中, set 不重覆特性來過濾
+            // 將 eamil 放進 set 中，set 不重覆特性來過濾
             set.add(eamil);
         }
         return set.size();

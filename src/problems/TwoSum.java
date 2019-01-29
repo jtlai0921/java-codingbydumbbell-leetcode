@@ -20,7 +20,7 @@ public class TwoSum {
 
         for (int i = 0; i < nums.length; i++) {
 
-            // map 內容為「值」, 「順序」
+            // map 內容為「值」：「順序」
             map.put(nums[i], i);
         }
 

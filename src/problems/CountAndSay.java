@@ -21,7 +21,7 @@ public class CountAndSay {
         int count = 1;
         for (int i = 0; i < str.length() - 1; i++) {
 
-            // 判斷該字元與下一字元是否相同, 相同則計數
+            // 判斷該字元與下一字元是否相同，相同則計數
             if (str.charAt(i) == str.charAt(i + 1)) count++;
             else { // 不同則文字化
                 res.append(count).append(str.charAt(i));
