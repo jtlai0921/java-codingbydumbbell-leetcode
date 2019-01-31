@@ -20,9 +20,7 @@ LeetCode 是非常知名的題庫網站，我想很多人都應該對它不陌�
 
 同時我會把每題的詳解與說明放在我個人的部落格，如果有興趣，不妨前往觀看。
 
-LeetCode.com：https://leetcode.com/
-
-My Blog, CODINGBYDUBBELL：https://codingbydumbbell.blogspot.com/
+***
 
 此為本人部落格教學文章『Java Basic』之範例：[部落格導覽](https://codingbydumbbell.blogspot.com/2019/01/blog-post.html)。
 
