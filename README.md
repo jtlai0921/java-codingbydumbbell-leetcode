@@ -1,7 +1,10 @@
 # java-codingbydumbbell-leetcode
 LeetCode 刷題系列
+<br />
 
-簡介：
+***
+
+<h3>簡介：</h3>
 
 LeetCode 是非常知名的題庫網站，我想很多人都應該對它不陌生；這個網站收錄了非常多的與程式語言相關題目，其來源包含「Google」、「Facebook」、「MicroSoft」和「Amazon」等知名國際企業的面試考題。
 
@@ -20,3 +23,7 @@ LeetCode 是非常知名的題庫網站，我想很多人都應該對它不陌�
 LeetCode.com：https://leetcode.com/
 
 My Blog, CODINGBYDUBBELL：https://codingbydumbbell.blogspot.com/
+
+此為本人部落格教學文章『Java Basic』之範例：[部落格導覽](https://codingbydumbbell.blogspot.com/2019/01/blog-post.html)。
+
+My Blog：[CODINGBYDUMBBELL](https://codingbydumbbell.blogspot.com/)
