@@ -15,9 +15,12 @@ public class LongestPalindrome {
         if (s == null || s.length() == 0) return 0;
         Set<Character> set = new HashSet<>();
         int count = 0;
-        for (char c : s.toCharArray())
-            if (set.remove(c)) count++;
-            else set.add(c);
+        for (char c : s.toCharArray()) {
+            if (set.contains(c)) {
+                set.remove(c);
+                count++;
+            } else set.add(c);
+        }
         return count * 2 + (set.isEmpty() ? 0 : 1);
     }
 }
