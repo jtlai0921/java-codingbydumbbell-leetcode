@@ -3,8 +3,7 @@ package problems;
 public class NthDigit {
 
     public static void main(String[] args) {
-        int n =
-                11;
+        int n = 11;
         int res = new NthDigit().findNthDigit(n);
         System.out.println(res);
     }
