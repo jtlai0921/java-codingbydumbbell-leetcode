@@ -5,9 +5,8 @@ public class SortArrayByParity {
     public static void main(String[] args) {
         int[] A = {3, 1, 2, 4};
         int[] res = new SortArrayByParity().sortArrayByParity(A);
-        for (int i : res) {
-            System.out.print(i + " ");
-        }
+        for (int i : res) System.out.print(i + " ");
+
     }
 
     public int[] sortArrayByParity(int[] A) {

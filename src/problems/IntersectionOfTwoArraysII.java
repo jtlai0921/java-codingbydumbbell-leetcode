@@ -7,15 +7,9 @@ import java.util.List;
 public class IntersectionOfTwoArraysII {
 
     public static void main(String[] args) {
-
-        int[] nums1 = {4, 9, 5};
-        int[] nums2 = {9, 4, 9, 8, 4};
-
+        int[] nums1 = {4, 9, 5}, nums2 = {9, 4, 9, 8, 4};
         int[] res = new IntersectionOfTwoArraysII().intersect(nums1, nums2);
-
-        for (int i : res) {
-            System.out.print(i + " ");
-        }
+        for (int i : res) System.out.print(i + " ");
     }
 
     public int[] intersect(int[] nums1, int[] nums2) {

@@ -3,13 +3,9 @@ package problems;
 public class RemoveElement {
 
     public static void main(String[] args) {
-
-        int[] nums = {1, 3, 4, 5};
-        int val = 4;
+        int nums[] = {1, 3, 4, 5}, val = 4;
         int res = new RemoveElement().removeElement(nums, val);
-        for (int i = 0; i < res; i++) {
-            System.out.print(nums[i] + " ");
-        }
+        for (int i = 0; i < res; i++) System.out.print(nums[i] + " ");
     }
 
     public int removeElement(int[] nums, int val) {

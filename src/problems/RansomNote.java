@@ -3,8 +3,7 @@ package problems;
 public class RansomNote {
 
     public static void main(String[] args) {
-        String ransomNote = "aab";
-        String magazine = "aab";
+        String ransomNote = "aab", magazine = "aab";
         boolean res = new RansomNote().canConstruct(ransomNote, magazine);
         System.out.println(res);
     }

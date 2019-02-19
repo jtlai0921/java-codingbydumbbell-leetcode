@@ -6,8 +6,7 @@ import java.util.Map;
 public class IsomorphicStrings {
 
     public static void main(String[] args) {
-        String s = "egg";
-        String t = "add";
+        String s = "egg", t = "add";
         boolean res = new IsomorphicStrings().isIsomorphic(s, t);
         System.out.println(res);
     }

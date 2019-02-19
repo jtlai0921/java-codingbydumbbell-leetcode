@@ -6,9 +6,7 @@ import java.util.Set;
 public class UniqueEmailAddresses {
 
     public static void main(String[] args) {
-        String[] emails = {"test.email+alex@leetcode.com",
-                "test.e.mail+bob.cathy@leetcode.com",
-                "testemail+david@lee.tcode.com"};
+        String[] emails = {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
         int res = new UniqueEmailAddresses().numUniqueEmails(emails);
         System.out.println(res);
     }

@@ -6,12 +6,9 @@ import java.util.Map;
 public class TwoSum {
 
     public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
+        int nums[] = {2, 7, 11, 15}, target = 9;
         int[] res = new TwoSum().twoSum(nums, target);
-        for (int i : res) {
-            System.out.print(i + " ");
-        }
+        for (int i : res) System.out.print(i + " ");
     }
 
     public int[] twoSum(int[] nums, int target) {

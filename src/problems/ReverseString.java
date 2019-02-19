@@ -11,9 +11,7 @@ public class ReverseString {
         // part 2
         char[] s = {'H', 'a', 'n', 'n', 'a', 'h'};
         new ReverseString().reverseString(s);
-        for (char c : s) {
-            System.out.print(c + " ");
-        }
+        for (char c : s) System.out.print(c + " ");
     }
 
     // part 1

@@ -4,11 +4,8 @@ public class PlusOne {
 
     public static void main(String[] args) {
         int[] digits = {9, 9, 9};
-
         int[] res = new PlusOne().plusOne(digits);
-        for (int i : res) {
-            System.out.print(i + " ");
-        }
+        for (int i : res) System.out.print(i + " ");
     }
 
     public int[] plusOne(int[] digits) {

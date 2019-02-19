@@ -1,13 +1,11 @@
 package problems;
 
 public class DIStringMatch {
+
     public static void main(String[] args) {
         String S = "DDI";
-
         int[] res = new DIStringMatch().diStringMatch(S);
-        for (int i : res) {
-            System.out.print(i+" ");
-        }
+        for (int i : res) System.out.print(i + " ");
     }
 
     public int[] diStringMatch(String S) {

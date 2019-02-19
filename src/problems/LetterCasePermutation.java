@@ -9,7 +9,6 @@ public class LetterCasePermutation {
 
     public static void main(String[] args) {
         String S = "a1b2";
-
         List<String> res = new LetterCasePermutation().letterCasePermutation(S);
         System.out.println(res);
     }

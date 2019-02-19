@@ -3,9 +3,7 @@ package problems;
 public class JewelsAndStones {
 
     public static void main(String[] args) {
-        String J = "aA";
-        String S = "aAAbbbb";
-
+        String J = "aA", S = "aAAbbbb";
         int res = new JewelsAndStones().numJewelsInStones(J, S);
         System.out.println(res);
     }

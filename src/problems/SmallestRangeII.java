@@ -5,8 +5,7 @@ import java.util.Arrays;
 public class SmallestRangeII {
 
     public static void main(String[] args) {
-        int[] A = {1, 3, 6};
-        int K = 3;
+        int A[] = {1, 3, 6}, K = 3;
         int res = new SmallestRangeII().smallestRangeII(A, K);
         System.out.println(res);
     }

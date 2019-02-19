@@ -4,7 +4,6 @@ public class CountAndSay {
 
     public static void main(String[] args) {
         int n = 6;
-
         String res = new CountAndSay().countAndSay(n);
         System.out.println(res);
     }
