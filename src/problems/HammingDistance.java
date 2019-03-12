@@ -10,8 +10,6 @@ public class HammingDistance {
     }
 
     public int hammingDistance(int x, int y) {
-        System.out.println(Integer.toBinaryString(x));
-        System.out.println(Integer.toBinaryString(y));
         return Integer.bitCount(x ^ y);
     }
 }
