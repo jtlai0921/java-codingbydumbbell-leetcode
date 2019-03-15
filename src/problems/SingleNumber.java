@@ -11,21 +11,9 @@ public class SingleNumber {
     }
 
     public int singleNumber(int[] nums) {
-        int res = 0;
-        for (int i : nums) res ^= i;
-        return res;
+        Arrays.sort(nums);
+        if (nums.length == 1 || nums[0] != nums[1]) return nums[0];
+        for (int i = 1; i < nums.length - 1; i++) if (nums[i] != nums[i - 1] && nums[i] != nums[i + 1]) return nums[i];
+        return nums[nums.length - 1];
     }
-
-//    public int singleNumber(int[] nums) {
-//        Map<Integer, Boolean> map = new HashMap<>();
-//        for (int i : nums) if (map.put(i, true) != null) map.remove(i);
-//        return map.keySet().iterator().next();
-//    }
-
-//    public int singleNumber(int[] nums) {
-//        Arrays.sort(nums);
-//        if (nums.length == 1 || nums[0] != nums[1]) return nums[0];
-//        for (int i = 1; i < nums.length - 1; i++) if (nums[i] != nums[i - 1] && nums[i] != nums[i + 1]) return nums[i];
-//        return nums[nums.length - 1];
-//    }
 }
