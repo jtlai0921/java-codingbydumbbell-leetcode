@@ -1,5 +1,7 @@
 package problems;
 
+import java.util.Arrays;
+
 public class SingleNumberII {
 
     public static void main(String[] args) {
@@ -9,13 +11,9 @@ public class SingleNumberII {
     }
 
     public int singleNumber(int[] nums) {
-        int ans = 0;
-        for (int i = 0, sum = 0; i < 32; i++, sum = 0) {
-            for (int j = 0; j < nums.length; j++) {
-                if (((nums[j] >> i) & 1) == 1) sum = ++sum % 3;
-            }
-            if (sum != 0) ans |= sum << i;
-        }
-        return ans;
+        int len = nums.length, i;
+        Arrays.sort(nums);
+        for (i = 0; i < len - 1 && nums[i] == nums[i + 1]; i += 3) ;
+        return nums[i];
     }
 }
