@@ -1,11 +1,11 @@
 package problems;
 
-public class Pow {
+public class PowXN {
 
     public static void main(String[] args) {
         double x = 2;
         int n = -1;
-        double res = new Pow().myPow(x, n);
+        double res = new PowXN().myPow(x, n);
         System.out.println(res);
     }
 
