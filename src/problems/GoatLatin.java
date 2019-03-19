@@ -1,8 +1,5 @@
 package problems;
 
-import java.util.Arrays;
-import java.util.List;
-
 public class GoatLatin {
     public static void main(String[] args) {
         String S = "The quick brown fox jumped over the lazy dog";
