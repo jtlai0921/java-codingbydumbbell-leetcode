@@ -32,8 +32,6 @@ public class BaseballGame {
                     sum += (first + second);
                     break;
                 default:
-                    //assumes it is an int. We could check if it is an int and throw an exception but
-                    //assumes input is valid.
                     int val = Integer.valueOf(s);
                     sum += val;
                     stack.push(val);
