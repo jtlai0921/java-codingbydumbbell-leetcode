@@ -1,8 +1,5 @@
 package problems;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ShortestCompletingWord {
 
     public static void main(String[] args) {
@@ -12,22 +9,23 @@ public class ShortestCompletingWord {
     }
 
     public String shortestCompletingWord(String licensePlate, String[] words) {
-        String codePlate = encode(licensePlate), res = null;
-        for (String w : words)
-            if (w.length() >= codePlate.length() && isFit(w, codePlate)) if (res == null || res.length() > w.length()) res = w;
+        int[] codePlate = encode(licensePlate);
+        String res = null;
+        for (String word : words) {
+            int[] codeWord = encode(word);
+            if (isFit(codePlate, codeWord) && (res == null || word.length() < res.length())) res = word;
+        }
         return res;
     }
 
-    private String encode(String licensePlate) {
-        String code = "";
-        for (char c : licensePlate.toLowerCase().toCharArray()) if (Character.isLetter(c)) code += c;
+    private int[] encode(String s) {
+        int[] code = new int[26];
+        for (char c : s.toLowerCase().toCharArray()) if (Character.isLetter(c)) code[c - 'a']++;
         return code;
     }
 
-    private boolean isFit(String w, String codePlate) {
-        List<Character> ws = new ArrayList<>();
-        for (Character c : w.toCharArray()) ws.add(c);
-        for (Character c : codePlate.toCharArray()) if (!ws.remove(c)) return false;
+    private boolean isFit(int[] plate, int[] word) {
+        for (int i = 0; i < plate.length; i++) if (plate[i] > word[i]) return false;
         return true;
     }
 }
