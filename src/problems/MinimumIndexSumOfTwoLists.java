@@ -25,8 +25,6 @@ public class MinimumIndexSumOfTwoLists {
                     result.add(list1[i]);
                 } else if (sum == min) result.add(list1[i]);
             }
-        String[] res = result.toArray(new String[result.size()]);
-        return res;
+        return result.toArray(new String[result.size()]);
     }
-
 }
