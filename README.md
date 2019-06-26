@@ -49,19 +49,19 @@ No.     |Title.
 23      |Merge k Sorted Lists    	
 24      |Swap Nodes in Pairs    	
 25      |Reverse Nodes in k-Group    
-26      |Remove Duplicates from Sorted Array    
-27      |Remove Element    
-28      |Implement strStr()    
+26      |[Remove Duplicates from Sorted Array](https://codingbydumbbell.blogspot.com/2019/03/leetcode-26-remove-duplicates-from.html)
+27      |[Remove Element](https://codingbydumbbell.blogspot.com/2019/02/leetcode-27-remove-element.html)
+28      |[Implement strStr()](https://codingbydumbbell.blogspot.com/2019/01/leetcode-28-implement-strstr.html)
 29      |Divide Two Integers    
 30      |Substring with Concatenation of All Words    
 31      |Next Permutation    	
 32      |Longest Valid Parentheses    
 33      |Search in Rotated Sorted Array    
 34      |Find First and Last Position of Element in Sorted Array   
-35      |Search Insert Position    
+35      |[Search Insert Position](https://codingbydumbbell.blogspot.com/2019/03/leetcode-35-search-insert-position.html) 
 36      |Valid Sudoku    
 37      |Sudoku Solver    
-38      |Count and Say    
+38      |[Count and Say](https://codingbydumbbell.blogspot.com/2019/01/leetcode-38-count-and-say.html)
 39      |Combination Sum    
 40      |Combination Sum II    
 41      |First Missing Positive    
@@ -73,18 +73,69 @@ No.     |Title.
 47      |Permutations II    
 48      |Rotate Image    
 49      |Group Anagrams    
-50      |Pow(x, n)    
+50      |[Pow(x, n)](https://codingbydumbbell.blogspot.com/2019/01/leetcode-50-powx-n.html)
   
-51      |
-52      |
-53      |
-54      |
-55      |
+51      |N-Queens    
+52      |N-Queens II    
+53      |Maximum Subarray    
+54      |Spiral Matrix    
+55      |Jump Game    
 56      |    
 57      |
 58      |
 59      |
 60      |
+61      |    
+62      |
+63      |
+64      |
+65      |
+66      |    
+67      |
+68      |
+69      |
+70      |
+71      |    
+72      |
+73      |
+74      |
+75      |
+76      |    
+77      |
+78      |
+79      |
+80      |
+81      |    
+82      |
+83      |
+84      |
+85      |
+86      |    
+87      |
+88      |
+89      |
+90      |
+91      |    
+92      |
+93      |
+94      |
+95      |
+96      |    
+97      |
+98      |
+99      |
+100     |
+
+101     |    
+102     |
+103     |
+104     |
+105     |
+106     |    
+107     |
+108     |
+109     |
+110     |
 
 ***
 
