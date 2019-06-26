@@ -22,6 +22,12 @@ LeetCode 是非常知名的題庫網站，我想很多人都應該對它不陌�
 
 ***
 
+# .    |Difficulty . |Title . 
+-------|-------------|----------------------
+1      |Easy         |Two Sum 
+
+***
+
 此為本人部落格教學文章『Leetcode』之範例：[部落格導覽](https://codingbydumbbell.blogspot.com/2019/01/blog-post.html)。
 
 My Blog：[CODINGBYDUMBBELL](https://codingbydumbbell.blogspot.com/)
