@@ -25,8 +25,8 @@ LeetCode 是非常知名的題庫網站，我想很多人都應該對它不陌�
 No.     |Title. 
 --------|----------------------
 1       |[Two Sum](https://codingbydumbbell.blogspot.com/2019/01/leetcode-1-two-sum.html)
-2	      |Add Two Numbers
-3	      |Longest Substring Without Repeating Characters
+2	      |[Add Two Numbers](https://codingbydumbbell.blogspot.com/2019/01/leetcode-2-add-two-numbers.html)
+3	      |[Longest Substring Without Repeating Characters](https://codingbydumbbell.blogspot.com/2019/01/leetcode-3-longest-substring-without.html)
 4	      |Median of Two Sorted Arrays
 5	      |Longest Palindromic Substring
 6	      |ZigZag Conversion
