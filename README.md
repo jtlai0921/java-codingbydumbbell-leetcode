@@ -30,14 +30,14 @@ No.     |Title.
 4	      |Median of Two Sorted Arrays
 5	      |Longest Palindromic Substring
 6	      |ZigZag Conversion
-7	      |Reverse Integer
-8	      |String to Integer (atoi)
-9       |Palindrome Number    
-10      |Regular Expression Matching    
-11      |Container With Most Water    
-12      |Integer to Roman    
-13      |Roman to Integer    
-14      |Longest Common Prefix    
+7	      |[Reverse Integer](https://codingbydumbbell.blogspot.com/2019/01/leetcode-7-reverse-integer.html)
+8	      |[String to Integer (atoi)](https://codingbydumbbell.blogspot.com/2019/02/leetcode-8-string-to-integer-atoi.html)
+9       |[Palindrome Number](https://codingbydumbbell.blogspot.com/2019/01/leetcode-9-palindrome-number_11.html)
+10      |Regular Expression Matching
+11      |Container With Most Water
+12      |[Integer to Roman](https://codingbydumbbell.blogspot.com/2019/03/leetcode-12-integer-to-roman.html)
+13      |[Roman to Integer](https://codingbydumbbell.blogspot.com/2019/03/leetcode-13-roman-to-integer.html)
+14      |[Longest Common Prefix](https://codingbydumbbell.blogspot.com/2019/02/leetcode-14-longest-common-prefix.html)
 15      |3Sum    
 16      |3Sum Closest    
 17      |Letter Combinations of a Phone Number    
