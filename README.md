@@ -79,38 +79,38 @@ No.     |Title.
 53      |Maximum Subarray    
 54      |Spiral Matrix    
 55      |Jump Game    
-56      |    
-57      |
-58      |
-59      |
-60      |
-61      |    
-62      |
-63      |
-64      |
-65      |
-66      |    
-67      |
-68      |
-69      |
-70      |
-71      |    
-72      |
-73      |
-74      |
-75      |
-76      |    
-77      |
-78      |
-79      |
-80      |
-81      |    
-82      |
-83      |
-84      |
-85      |
-86      |    
-87      |
+56      |Merge Intervals   
+57      |Insert Interval  
+58      |[Length of Last Word](https://codingbydumbbell.blogspot.com/2019/01/leetcode-58-length-of-last-word.html)
+59      |Spiral Matrix II   
+60      |Permutation Sequence   
+61      |Rotate List  
+62      |Unique Paths    
+63      |Unique Paths II    
+64      |Minimum Path Sum 
+65      |Valid Number  
+66      |[Plus One](https://codingbydumbbell.blogspot.com/2019/01/leetcode-66-plus-one.html)
+67      |[Add Binary](https://codingbydumbbell.blogspot.com/2019/06/leetcode-67-add-binary.html)
+68      |Text Justification 
+69      |[Sqrt(x)](https://codingbydumbbell.blogspot.com/2019/03/leetcode-69-sqrtx.html)
+70      |[Climbing Stairs](https://codingbydumbbell.blogspot.com/2019/03/leetcode-70-climbing-stairs.html)
+71      |Simplify Path
+72      |Edit Distance
+73      |Set Matrix Zeroes 
+74      |Search a 2D Matrix 
+75      |Sort Colors
+76      |Minimum Window Substring
+77      |Combinations
+78      |Subsets
+79      |Word Search 
+80      |Remove Duplicates from Sorted Array II
+81      |Search in Rotated Sorted Array II    
+82      |Remove Duplicates from Sorted List II    
+83      |[Remove Duplicates from Sorted List](https://codingbydumbbell.blogspot.com/2019/06/leetcode-83-remove-duplicates-from.html) 
+84      |Largest Rectangle in Histogram
+85      |Maximal Rectangle  
+86      |Partition List  
+87      |Scramble String    
 88      |
 89      |
 90      |
