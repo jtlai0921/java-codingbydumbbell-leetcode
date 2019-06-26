@@ -74,7 +74,6 @@ No.     |Title.
 48      |Rotate Image    
 49      |Group Anagrams    
 50      |[Pow(x, n)](https://codingbydumbbell.blogspot.com/2019/01/leetcode-50-powx-n.html)
-  
 51      |N-Queens    
 52      |N-Queens II    
 53      |Maximum Subarray    
@@ -125,7 +124,6 @@ No.     |Title.
 98      |
 99      |
 100     |
-
 101     |    
 102     |
 103     |
