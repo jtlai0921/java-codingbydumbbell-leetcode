@@ -22,7 +22,7 @@ LeetCode 是非常知名的題庫網站，我想很多人都應該對它不陌�
 
 ***
 
-# .    |Difficulty . |Title . 
+No.    |Difficulty.  |Title. 
 -------|-------------|----------------------
 1      |Easy         |Two Sum 
 
