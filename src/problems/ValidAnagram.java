@@ -3,7 +3,7 @@ package problems;
 public class ValidAnagram {
 
     public static void main(String[] args) {
-        String s = "", t = "";
+        String s = "aab", t = "aba";
         boolean res = new ValidAnagram().isAnagram(s, t);
         System.out.println(res);
     }
