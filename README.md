@@ -76,7 +76,7 @@ No.     |Title.
 50      |[Pow(x, n)](https://codingbydumbbell.blogspot.com/2019/01/leetcode-50-powx-n.html)
 51      |N-Queens    
 52      |N-Queens II    
-53      |Maximum Subarray    
+53      |[Maximum Subarray](https://codingbydumbbell.blogspot.com/2019/07/leetcode-53-maximum-subarray.html)
 54      |Spiral Matrix    
 55      |Jump Game    
 56      |Merge Intervals   
