@@ -38,7 +38,7 @@ No.     |Title.
 12      |[Integer to Roman](https://codingbydumbbell.blogspot.com/2019/03/leetcode-12-integer-to-roman.html)
 13      |[Roman to Integer](https://codingbydumbbell.blogspot.com/2019/03/leetcode-13-roman-to-integer.html)
 14      |[Longest Common Prefix](https://codingbydumbbell.blogspot.com/2019/02/leetcode-14-longest-common-prefix.html)
-15      |3Sum    
+15      |[3Sum](https://codingbydumbbell.blogspot.com/2019/07/leetcode-15-3sum.html) 
 16      |3Sum Closest    
 17      |Letter Combinations of a Phone Number    
 18      |4Sum   
