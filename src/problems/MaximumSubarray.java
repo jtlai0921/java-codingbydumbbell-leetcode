@@ -3,17 +3,16 @@ package problems;
 public class MaximumSubarray {
 
     public static void main(String[] args) {
-        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int[] nums = {-2, 1};
         int res = new MaximumSubarray().maxSubArray(nums);
         System.out.println(res);
     }
 
     public int maxSubArray(int[] nums) {
-        int sum = 0, res = -1;
-        for (int i : nums) {
-            sum += i;
-            if (sum > res) res = sum;
-            else if (sum < 0) sum = 0;
+        int res = Integer.MIN_VALUE, sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum = Math.max(sum, 0) + nums[i];
+            res = Math.max(res, sum);
         }
         return res;
     }
