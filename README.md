@@ -243,7 +243,7 @@ No.     |Title.
 217     |[Contains Duplicate]
 218     |The Skyline Problem 
 219     |[Contains Duplicate II]
-220     | Contains Duplicate III 
+220     |Contains Duplicate III 
 221     |
 222     |
 223     |
