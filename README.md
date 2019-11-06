@@ -89,7 +89,7 @@ No.     |Title.
 63      |Unique Paths II    
 64      |Minimum Path Sum 
 65      |Valid Number  
-66      |[Plus One](https://codingbydumbbell.blogspot.com/2019/01/leetcode-66-plus-one.html)
+66      |[Plus One](https://medium.com/@rick8220602/leetcode-java-66-plus-one-8c77d39ea3)
 67      |[Add Binary](https://codingbydumbbell.blogspot.com/2019/06/leetcode-67-add-binary.html)
 68      |Text Justification 
 69      |[Sqrt(x)](https://codingbydumbbell.blogspot.com/2019/03/leetcode-69-sqrtx.html)
