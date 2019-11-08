@@ -304,6 +304,8 @@ No.     |Title.
 278     |
 279     |
 280     | 
+218     |[N-Repeated Element in Size 2N Array](https://medium.com/@rick8220602/961-n-repeated-element-in-size-2n-array-e33421e3add6) 
+    
 
 ***
 
