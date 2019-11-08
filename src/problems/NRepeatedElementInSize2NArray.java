@@ -13,14 +13,8 @@ public class NRepeatedElementInSize2NArray {
 
     public int repeatedNTimes(int[] A) {
         List<Integer> list = new ArrayList<>();
-
-        // 只要判斷內容是否有重覆
         for (int i : A) {
-
-            // 有重覆就是它
             if (list.contains(i)) return i;
-
-            // 不然就加入 list
             list.add(i);
         }
         return -1;
