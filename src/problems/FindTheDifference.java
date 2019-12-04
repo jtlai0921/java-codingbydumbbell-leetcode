@@ -9,11 +9,9 @@ public class FindTheDifference {
     }
 
     public char findTheDifference(String s, String t) {
-        int i = 0;
-        // 算出 t 字串的總和
-        for (int c : t.toCharArray()) i += c;
-        // 扣掉 s 字串的總和
-        for (int c : s.toCharArray()) i -= c;
-        return (char) i;
+        int res = 0;
+        for (int c : t.toCharArray()) res += c;
+        for (int c : s.toCharArray()) res -= c;
+        return (char) res;
     }
 }
