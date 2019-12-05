@@ -14,6 +14,7 @@ public class NRepeatedElementInSize2NArray {
     public int repeatedNTimes(int[] A) {
         List<Integer> list = new ArrayList<>();
         for (int i : A) {
+            // 判斷是否有重覆
             if (list.contains(i)) return i;
             list.add(i);
         }

@@ -12,29 +12,19 @@ public class TwoSum {
     }
 
     public int[] twoSum(int[] nums, int target) {
-
         Map<Integer, Integer> map = new HashMap<>();
-
+        // 『值』當作 key，『順序』當作 value
+        for (int i = 0; i < nums.length; i++) map.put(nums[i], i);
         for (int i = 0; i < nums.length; i++) {
 
-            // map 內容為「值」：「順序」
-            map.put(nums[i], i);
-        }
-
-        for (int i = 0; i < nums.length; i++) {
-
-            // 所需的數值 = 目標數值 - 目前的項目數值
+            // 所需數值 = 目標值 - 當前值
             int complement = target - nums[i];
+            if (map.containsKey(complement) && // 判斷 Map 中是否有符合的值
+                    map.get(complement) != i) // 判斷是否為同一個元素
 
-            // 搜尋 map 的 key(值)
-            if (map.containsKey(complement) &&
-                    map.get(complement) != i) // 陣列中的每個元素不能被重覆使用
-
-                // 如果滿足上述兩個條件，則 return 該解
+                // 若符合上述兩個條件，則為答案
                 return new int[]{i, map.get(complement)};
         }
-
-        // 代表沒有這樣的解
-        return null;
+        return null; // 代表沒有符合
     }
 }
