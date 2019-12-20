@@ -3,35 +3,65 @@ package problems;
 public class ImplementStrStr {
 
     public static void main(String[] args) {
-        String haystack = "hello", needle = "ll";
+        String haystack = "mississippi", needle = "pi";
         int res = new ImplementStrStr().strStr(haystack, needle);
         System.out.println(res);
     }
 
     public int strStr(String haystack, String needle) {
-
-        // 如果 needle 是空字串，則返回 0
+        // 排除 needle 是空字串的情況
         if (needle.isEmpty()) return 0;
-        for (int i = 0; i < haystack.length(); i++) {
-
-            // 如果 needle + 已辨識長度 > haystack，那就代表，此次匹配失敗
+        // Outer For-Loop
+        for (int i = 0, j; i < haystack.length(); i++) {
+            // 排除 needle 字串的長度大於「比對字串」的長度
             if (i + needle.length() > haystack.length()) return -1;
-
-            // 如果 haystack 某個字元等於 needle 的第一個字元，則開始匹配
-            if (haystack.charAt(i) == needle.charAt(0)) {
-                int j;
-
-                // 第一個字元剛剛匹配啦，所以這裡就從第二個字元匹配到最後
-                for (j = 1; j < needle.length(); j++) {
-
-                    // 匹配失敗，跳過這次匹配
+            if (haystack.charAt(i) == needle.charAt(0)) { // 僅比對第一個字元
+                // 逐一字元進行比對
+                for (j = 1; j < needle.length(); j++)
+                    // 若有一項比對失敗，則直接中斷
                     if (haystack.charAt(i + j) != needle.charAt(j)) break;
-                }
-
-                // 若 j 等於 needle 的長度，代表完全匹配，返回 i
+                // 若 j 等於 needle 的長度，代表著比對成功，返回索引 i
                 if (j == needle.length()) return i;
             }
         }
         return -1;
     }
+
+    public int strStrByEquals(String haystack, String needle) {
+        int hLen = haystack.length(), nLen = needle.length();
+        if (nLen == 0) return 0;
+        else if (hLen >= nLen) {
+            for (int i = 0; i <= hLen - nLen; i++)
+                if (haystack.substring(i, i + nLen).equals(needle)) return i;
+        }
+        return -1;
+    }
+
+    public int strStrByKmp(String haystack, String needle) {
+        if (needle.length() == 0) return 0;
+        if (needle.length() <= haystack.length()) {
+            int[] f = failureFunction(needle.toCharArray());
+            int i = 0, j = 0;
+            while (i < haystack.length()) {
+                if (haystack.charAt(i) == needle.charAt(j)) {
+                    i++;
+                    j++;
+                    if (j == needle.length()) return i - j;
+                } else if (j > 0) j = f[j];
+                else i++;
+            }
+        }
+        return -1;
+    }
+
+    private int[] failureFunction(char[] str) {
+        int[] f = new int[str.length + 1];
+        for (int i = 2; i < f.length; i++) {
+            int j = f[i - 1];
+            while (j > 0 && str[j] != str[i - 1]) j = f[j];
+            if (j > 0 || str[j] == str[i - 1]) f[i] = j + 1;
+        }
+        return f;
+    }
 }
+
