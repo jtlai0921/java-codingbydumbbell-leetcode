@@ -24,7 +24,7 @@ LeetCode 是非常知名的題庫網站，我想很多人都應該對它不陌�
 
 No.     |Title. 
 --------|----------------------
-1       |[Two Sum](https://codingbydumbbell.blogspot.com/2019/01/leetcode-1-two-sum.html)
+1       |[Two Sum](https://medium.com/leetcode-%E5%BE%9E%E9%96%8B%E5%A7%8B%E5%88%B0%E6%94%BE%E6%A3%84/1-two-sum-6d3c533f7996)
 2	    |[Add Two Numbers](https://codingbydumbbell.blogspot.com/2019/01/leetcode-2-add-two-numbers.html)
 3	    |[Longest Substring Without Repeating Characters](https://codingbydumbbell.blogspot.com/2019/01/leetcode-3-longest-substring-without.html)
 4	    |Median of Two Sorted Arrays
